@@ -1,0 +1,186 @@
+/* ===============================
+   ESTILO GERAL
+   =============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* ===============================
+   CABEÇALHO E MENU SUPERIOR
+   =============================== */
+header {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0;
+}
+
+/* Container do cabeçalho (logo + menu) */
+.header-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo e nome */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-position: right center;
+}
+
+.logo h1 {
+    font-size: 22px;
+    color: #333;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.ativo {
+    color: #777;
+}
+
+/* ===============================
+   CONTEÚDO PRINCIPAL
+   =============================== */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.hero {
+      background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(39, 39, 39, 0.39);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+/* Seções gerais */
+section {
+    margin-bottom: 30px;
+}
+
+/* Projetos */
+.projetos article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.projetos img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+
+/* Lista de voluntariado */
+.voluntariado ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* ===============================
+   FORMULÁRIO DE CADASTRO
+   =============================== */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão */
+button {
+    background-color: blue;
+    color: #333;
+    border: 1px solid #aaa;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d6d6d6;
+}
+
+/* ===============================
+   RODAPÉ
+   =============================== */
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #cccccc;
+    font-size: 14px;
+    color: #555;
+}

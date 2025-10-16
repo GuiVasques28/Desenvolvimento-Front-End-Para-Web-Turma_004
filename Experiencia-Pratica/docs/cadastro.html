@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gatitos do Bem - Cuidando com Amor</title>
+  <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho com logo e menu -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../imagens/logo.png" alt="Logo da Gatitos do Bem">
+                <h1>Gatitos do Bem</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="cadastro.html" class="ativo">Cadastro</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section class="cadastro">
+            <h2>Cadastro de Voluntários e Doadores</h2>
+            <p>Preencha o formulário abaixo para se juntar à nossa rede de amor e cuidado com os felinos.</p>
+
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" maxlength="14" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" maxlength="15" required>
+
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" maxlength="9" required>
+
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" required>
+
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required>
+
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" name="estado" maxlength="2" required>
+                </fieldset>
+
+                <button type="submit">Enviar Cadastro</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gatitos do Bem. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
